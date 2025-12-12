@@ -1,0 +1,17 @@
+# TypeSpec specific ignores
+# (This file is optional - main .gitignore handles most cases)
+
+# Generated OpenAPI files
+openapi.yaml
+openapi.json
+
+# Build output
+tsp-output/
+
+# Cache
+.tsp/
+.tspcache/
+
+# Lock file (optional - some prefer to commit it)
+package-lock.json
+

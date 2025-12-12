@@ -1,0 +1,15 @@
+{
+  "name": "todo-api-typespec",
+  "version": "1.0.0",
+  "description": "TypeSpec definitions for Todo List API",
+  "scripts": {
+    "build": "tsp compile .",
+    "watch": "tsp compile . --watch"
+  },
+  "devDependencies": {
+    "@typespec/compiler": "latest",
+    "@typespec/http": "latest",
+    "@typespec/openapi3": "latest"
+  }
+}
+
